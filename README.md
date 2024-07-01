@@ -121,4 +121,4 @@ This app is designed to streamline the hospital appointment process, enhance pat
 
 ## Contact
 
-For any questions or issues, please open an issue in the repository or contact [saviosunny48@gmail.com].
+For any questions or issues, please open an issue in the repository or contact saviosunny48@gmail.com.
