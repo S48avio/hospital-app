@@ -10,7 +10,7 @@ import random
 import os
 import requests
 
-GOOGLE_API_KEY = 'AIzaSyDLdxqrm1DMDnEdnX9oljbtewsRe90x2QU'
+GOOGLE_API_KEY = 'AIzaSyDLdxqrm1DMDnEdnX9o###e90x2QU'
 genai.configure(api_key=GOOGLE_API_KEY)
 
 model = genai.GenerativeModel('gemini-pro')
@@ -19,7 +19,7 @@ app = Flask(__name__)
 CORS(app)
 
 # MongoDB client setup
-client = MongoClient('mongodb+srv://saviosunny48:2TJsNwpNwqJX2aG3@cluster0.0zmwv1l.mongodb.net/')
+client = MongoClient('mongodb+srv://v1l.mongodb.net/')
 db = client['test']
 users_collection = db['App_users']
 prescriptions_collection = db['Prescriptions']
